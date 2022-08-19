@@ -20,7 +20,6 @@
         <activity
             android:name=".ui.search.SearchActivity"
             android:exported="true"
-            android:label="@string/title_activity_main"
             android:theme="@style/Theme.BusinessNearby.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,8 +29,7 @@
         </activity>
         <activity
             android:name=".ui.detail.DetailActivity"
-            android:exported="true"
-            android:label="@string/title_activity_maps">
+            android:exported="true">
         </activity>
 
         <meta-data
